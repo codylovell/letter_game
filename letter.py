@@ -13,6 +13,7 @@ def clear_screen():
 
 while True:
 	start = input("Press enter to begin, or 'q' to exit, press 'c' to cheat.")
+	clear_screen()
 	if start.lower() == 'q':
 		break
 	if start.lower() == 'c':
